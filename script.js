@@ -2,7 +2,7 @@
 // Notes can be saved into local storage
 // If Notes are saved in local storage, its still there when the page reloads
 
-const moment = require("./moment");
+import moment from "./moment";
 
 // Past area is gray
 var currentDay = moment().format('MMMM Do YYYY');
