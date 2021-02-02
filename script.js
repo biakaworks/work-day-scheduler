@@ -10,7 +10,7 @@ $("#currentday").text(currentDay);
 var timeOfDay = ["09","10","11","12","01","02","03","04","05"];
 
 function timeColor() {
-    for (var i = 0; i < timeofDay.length; i++) {
+    for (var i = 0; i < timeOfDay.length; i++) {
         if (timeOfDay[i] < currentTime) {
             $("." + timeOfDay[i]).addClass("past");
     }
@@ -21,8 +21,7 @@ function timeColor() {
         $("." + timeOfDay[i]).addClass("future");
       }
     }
-}
-timeColor();
+};
 
 // Functions for each of the time
 // 9AM Row
