@@ -21,13 +21,13 @@ function timeColor() {
         $("." + timeOfDay[i]).addClass("future");
       }
     }
-};
+}
+timeColor();
 
 // Functions for each of the time
 // 9AM Row
 $("#Time9").on("click", function (){
     var task = $("#Time9").val();
-    console.log(task);
     localStorage.setItem("9:00", task);
 });
 $("#Time9").val(localStorage.getItem("9:00"));
