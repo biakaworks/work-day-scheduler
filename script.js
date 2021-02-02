@@ -4,7 +4,7 @@
 // Past area is gray
 var currentDay = moment().format('MMMM Do YYYY');
 var currentTime = moment().format("HH");
-$("#currentday").text(currentDay);
+$("#currentDay").text(currentDay);
 
 // For the sections of each time
 var timeOfDay = ["09","10","11","12","01","02","03","04","05"];
