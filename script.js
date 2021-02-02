@@ -26,7 +26,7 @@ timeColor();
 
 // Functions for each of the time
 // 9AM Row
-$("#Time9").on("click", function (){
+$("#button9").on("click", function (){
     var task = $("#Time9").val();
     localStorage.setItem("9:00", task);
 });
